@@ -19,7 +19,7 @@ Ribbon::Ribbon(QWidget *parent)
   : QTabWidget(parent)
 {
   // Determine default colors
-  QColor bg = qApp->palette().color(QPalette::Background);
+  QColor bg = qApp->palette().color(QPalette::Window);
   QColor mid = qApp->palette().color(QPalette::Mid);
 
   // Note: the order in which the background/palette/stylesheet functions are
@@ -70,7 +70,7 @@ Ribbon::Ribbon(QWidget *parent)
 
   // Set background color
   QPalette pal = palette();
-  pal.setColor(QPalette::Background, Qt::white);
+  pal.setColor(QPalette::Window, Qt::white);
   setPalette(pal);
 }
 

@@ -1,4 +1,5 @@
-# Qt-Ribbon-Widget
+# Qt-Ribbon-Widget by [martijnkoopman](https://github.com/martijnkoopman)
+[Fork from Qt-Ribbon-Widget](https://github.com/martijnkoopman/Qt-Ribbon-Widget)<br>
 A Ribbon widget for Qt
 
 ![Ribbon widget in a QMainWindow on Windows](docs/image_windows1.png)

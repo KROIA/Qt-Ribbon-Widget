@@ -2,11 +2,11 @@
 
 
 qtRibbonPath = $$PWD
-qtRibbonInc = $$qtRibbonPath
-qtRibbonSrc = $$qtRibbonPath
-qtRibbonUI = $$qtRibbonPath
+qtRibbonInc = $$qtRibbonPath/inc
+qtRibbonSrc = $$qtRibbonPath/src
+qtRibbonUI = $$qtRibbonPath/forms
 qtRibbonRes = $$qtRibbonPath
-
+message("PWD="$$PWD)
 
 INCLUDEPATH += $$qtRibbonInc
 

@@ -39,3 +39,4 @@ This project is licensed under the GNU Lesser General Public License v3.0 - see 
 
 ## Acknowledgments
 - Icons from [icons8.com](https://icons8.com/)
+

@@ -10,7 +10,7 @@ message("PWD="$$PWD)
 
 
 INCLUDEPATH += $$qtRibbonInc \
-               $$qtRibbonInc\Buttons
+               $$qtRibbonInc/Buttons
 
 SOURCES +=  $$qtRibbonSrc/ribbon.cpp \
             $$qtRibbonSrc/ribbonButtonGroup.cpp \

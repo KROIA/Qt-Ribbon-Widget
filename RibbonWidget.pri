@@ -6,7 +6,7 @@ qtRibbonInc = $$qtRibbonPath/inc
 qtRibbonSrc = $$qtRibbonPath/src
 qtRibbonUI = $$qtRibbonPath/forms
 qtRibbonRes = $$qtRibbonPath
-
+message("PWD="$$PWD)
 
 
 INCLUDEPATH += $$qtRibbonInc \

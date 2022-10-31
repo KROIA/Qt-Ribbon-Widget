@@ -21,6 +21,10 @@
         <file>icons/create_new_2.png</file>
         <file>icons/file_2.png</file>
         <file>icons/live_folder_2.png</file>
+<<<<<<< HEAD
+=======
+        <file>icons/save_2.png</file>
+>>>>>>> master
         <file>icons/scanArchive.png</file>
         <file>icons/scanArchive_1.png</file>
         <file>icons/scanArchive.ico</file>
@@ -30,6 +34,7 @@
         <file>icons/cancel.png</file>
         <file>icons/counter.png</file>
         <file>icons/play.png</file>
+<<<<<<< HEAD
         <file>icons/files.png</file>
         <file>icons/files_1.png</file>
         <file>icons/floppy_disk.png</file>
@@ -39,5 +44,7 @@
         <file>icons/floppy_disk_4.png</file>
         <file>icons/floppy_disk_5.png</file>
         <file>icons/xml.png</file>
+=======
+>>>>>>> master
     </qresource>
 </RCC>

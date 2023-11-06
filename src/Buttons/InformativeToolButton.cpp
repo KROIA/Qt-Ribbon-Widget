@@ -35,8 +35,7 @@ void InformativeToolButton::setOverlayColor(const QColor &color)
 void InformativeToolButton::setOverlayEnable(bool enable)
 {
     m_overlayEnable = enable;
-    if(enable)
-        this->update();
+    this->update();
 }
 void InformativeToolButton::overlayFlash(float flashSpeed, int flashCount, bool endWithEnabledOverlay)
 {

@@ -1,11 +1,12 @@
 #pragma once
 
+#include "RibbonWidget_global.h"
 #include <QObject>
 #include <QRect>
 #include <QColor>
 #include <QPainter>
 
-class ProgressBar: public QObject
+class RIBBONWIDGET_EXPORT ProgressBar: public QObject
 {
         Q_OBJECT
     public:

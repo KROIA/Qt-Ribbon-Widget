@@ -5,10 +5,11 @@
 #include <QTimer>
 #include <QLabel>
 
+#include "RibbonWidget_global.h"
 #include "progressBar.h"
 #include "loadingCircle.h"
 
-class InformativeToolButton: public QToolButton
+class RIBBONWIDGET_EXPORT InformativeToolButton: public QToolButton
 {
     public:
         InformativeToolButton(QWidget *parent = nullptr);

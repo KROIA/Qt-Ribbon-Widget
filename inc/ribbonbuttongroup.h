@@ -11,6 +11,7 @@
 #ifndef RIBBONBUTTONGROUP_H
 #define RIBBONBUTTONGROUP_H
 
+#include "RibbonWidget_global.h"
 #include <QWidget>
 #include <QToolButton>
 
@@ -18,7 +19,7 @@ namespace Ui {
 class RibbonButtonGroup;
 }
 
-class RibbonButtonGroup : public QWidget
+class RIBBONWIDGET_EXPORT RibbonButtonGroup : public QWidget
 {
   Q_OBJECT
 

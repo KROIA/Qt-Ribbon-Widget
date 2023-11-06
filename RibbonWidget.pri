@@ -6,11 +6,11 @@ qtRibbonInc = $$qtRibbonPath/inc
 qtRibbonSrc = $$qtRibbonPath/src
 qtRibbonUI = $$qtRibbonPath/forms
 qtRibbonRes = $$qtRibbonPath
-message("PWD="$$PWD)
+
 
 
 INCLUDEPATH += $$qtRibbonInc \
-               $$qtRibbonInc/Buttons
+               $$qtRibbonInc\Buttons
 
 SOURCES +=  $$qtRibbonSrc/ribbon.cpp \
             $$qtRibbonSrc/ribbonButtonGroup.cpp \

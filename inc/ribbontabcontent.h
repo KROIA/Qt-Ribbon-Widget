@@ -11,6 +11,7 @@
 #ifndef RIBBONTABCONTENT_H
 #define RIBBONTABCONTENT_H
 
+#include "RibbonWidget_global.h"
 #include <QWidget>
 #include <QToolButton>
 
@@ -18,7 +19,7 @@ namespace Ui {
 class RibbonTabContent;
 }
 
-class RibbonTabContent : public QWidget
+class RIBBONWIDGET_EXPORT RibbonTabContent : public QWidget
 {
   Q_OBJECT
 

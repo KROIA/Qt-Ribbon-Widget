@@ -11,10 +11,11 @@
 #ifndef RIBBONTABWIDGET_H
 #define RIBBONTABWIDGET_H
 
+#include "RibbonWidget_global.h"
 #include <QTabWidget>
 #include <QToolButton>
 
-class Ribbon : public QTabWidget
+class RIBBONWIDGET_EXPORT Ribbon : public QTabWidget
 {
   Q_OBJECT
 public:
